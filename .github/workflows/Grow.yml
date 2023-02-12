@@ -9,3 +9,5 @@ jobs:
       run: |
         mkdir download
         git clone "https://github.com/muhammetm/Grow.wiki.git"
+        wiki=`echo $echo $GITHUB_REPOSITORY | cut -d "/" -f 2`.wiki
+
